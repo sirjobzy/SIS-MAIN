@@ -8,7 +8,7 @@
         This is a Student Information Service built by Students from the Advanced Database Topics, in Section 1, Group 3,
         You can access various sections of the application, using the links below.
     </p>
-    <p><a href="https://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+    <a class="btn btn-primary btn-lg" @Html.ActionLink("Learn More", "Index", "Students")</a>
 </div>
 
 <div class="row">
@@ -19,7 +19,7 @@
             <p>
                 Manage Student information from
             </p>
-            <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
+            <a class="btn btn-default" @Html.ActionLink("Learn More", "Index", "Students")</a>
         </div>
     </div>
         <div class="col-md-4">
@@ -27,7 +27,7 @@
                 <img src="~/Content/images/lecturer.jpg" alt="Instructor image">
                 <h2>@Html.ActionLink("Instructors", "Index", "Instructors")</h2>
                 <p>Manage Instructors information here</p>
-                <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
+                <a class="btn btn-default" @Html.ActionLink("Learn More", "Index", "Instructors")</a>
             </div>
         </div>
         <div class="col-md-4">
@@ -35,7 +35,7 @@
                 <img src="~/Content/images/courses.jpg" alt="courses image">
                 <h2>@Html.ActionLink("Courses", "Index", "Cours")</h2>
                 <p>Manage Course information here</p>
-                <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
+                <a class="btn btn-default" @Html.ActionLink("Learn More", "Index", "Cours")</a>
             </div>
             </div>
         </div>
@@ -47,7 +47,7 @@
             <p>
                 Manage Department information here
             </p>
-            <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
+            <a class="btn btn-default" @Html.ActionLink("Learn More", "Index", "Departments")</a>
     </div>
     </div>
     <div class="col-md-4">
@@ -55,7 +55,7 @@
             <img src="~/Content/images/registration.jpg" alt="registration image">
             <h2>@Html.ActionLink("Registration", "Index", "Registrations")</h2>
             <p>Manage Registration information here</p>
-            <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
+            <a class="btn btn-default" @Html.ActionLink("Learn More", "Index", "Registrations")</a>
         </div>
     </div>
     <div class="col-md-4">
@@ -63,7 +63,7 @@
             <img src="~/Content/images/study_term.jpg" alt="study_term image">
             <h2>@Html.ActionLink("StudyTerm", "Index", "StudyTerms")</h2>
             <p>Manage Study Term information here</p>
-            <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
+            <a class="btn btn-default" @Html.ActionLink("Learn More", "Index", "StudyTerms")</a>
         </div>
     </div>
     </div>
@@ -73,7 +73,7 @@
             <img src="~/Content/images/teaching_assignment.jpg" alt="teaching_assignment image">
             <h2>@Html.ActionLink("TeachingAssignments", "Index", "TeachingAssignments")</h2>
             <p>Manage Teaching Assignments here</p>
-            <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
+            <a class="btn btn-default" @Html.ActionLink("Learn More", "Index", "TeachingAssignments")</a>
         </div>
     </div>
 </div>
